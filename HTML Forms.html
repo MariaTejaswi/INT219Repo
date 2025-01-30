@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+</head>
+<body>
+    <form action="">
+        <label for="uname"> Enter Name:</label>
+        <input type="text" name="uname" id="uname" size="30" maxlength="5" placeholder="Enter name" value="Maria">
+        <br>
+        <br>
+        <label for="pass">Enter Password:</label>
+        <input type="password" name="pass" id="pass" placeholder="Enter password" required>
+        <br><br>
+
+        <label for="email1">Enter Email:</label>
+        <input type="email" name="email1" id="email1" placeholder="Enter email" required>
+        <br><br>
+
+        <label for="review">Write a Review</label><br>
+        <textarea name="review" id="review" rows="6" cold="40"></textarea>
+
+        <br><br>
+
+        <label for="hobby">Choose your hobby:</label>
+        <input type="checkbox" name="hobby" id="hobby" value="Cook">Cooking
+        <input type="checkbox" name="hobby" id="hobby" value ="Journal" checked>Reading Journals
+        <input type="checkbox" name="hobby" id="hobby" value="sing">Singing
+        
+        <br><br>
+
+        <label for="gender">Choose your gender:</label>
+        <input type="radio" name="gender" id="gender" value="male">Male
+        <input type="radio" name="gender" id="gender" value="female">Female
+        <br><br>
+
+        <label for="pro">Select your program:</label>
+        <input type="radio" name="pro" id="pro" value="1">Medical
+        <input type="radio" name="pro" id="pro" value="2">NEET
+
+        <br><br>
+
+        <label for="pro">Select your program:</label>
+        <input type="radio" name="pro" id="cse" value="1">
+        <label for="cse">CSE</label>
+        <input type="radio" name="pro" id="ece" value="2">
+        <label for="ece">ECE</label>
+        <br><br>
+
+        <select name="statesel" id="statesel" size="2" multiple>
+            <option value="choose">Choose your state</option>
+            <option value="pun">Punjab</option>
+            <option value="ap" selected>Andhra Pradesh</option>
+            <option value="tel">Telangana</option>
+            <option value="kr">Kerala</option>
+            <option value="mum">Mumbai</option>
+        </select>
+        <br><br>
+
+        <label for="filesel">Choose File:</label>
+        <input type="file" name="filesel" id="filesel">
+
+        <br><br>
+        <!-- <input type="reset" name="resetform" id="resetform" value="Reset Form"> -->
+        <input type="submit" name="submitform" id="submitform" value="Submit Form">
+        <input type="reset" name="resetform" id="resetform" value="Reset Form">
+        <input type="image" name="imagesel" id="imagesel" src="images\SubmitButton.png" width ="100" height="40">
+        
+
+
+
+    </form>
+</body>
+</html>

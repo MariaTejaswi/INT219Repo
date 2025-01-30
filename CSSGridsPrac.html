@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grids</title>
+    <style>
+        .container{
+            background-color: beige;
+            border: 10px black solid;
+            padding: 10px;
+            display: grid;
+            grid-template-columns:1fr 1fr 1fr;
+
+        }
+
+        .item{
+            background-color: pink;
+            border: 2px solid black;
+            height: auto;
+            width: auto auto auto;
+        }
+
+        #i1{
+            grid-column: 1/4;
+            text-align: center;
+
+        }
+        #i2{
+            grid-column: 1/4;
+            text-align: center;
+            
+        }
+        #i9{
+            grid-column:  1/4;
+            text-align: center;
+        }
+        #i6{
+            grid-column: 1 /3;
+            text-align: center;
+
+        } 
+        *{
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item" id="i1"><h1>Famous Tourism Places of India</h1></div>
+        <div class="item" id="i2"><img src="images\tajMahal.jpg" alt="Tourism Place" style="width:400px; height:auto;"><br>Place: Taj Mahal<br> Location: Delhi</div>
+        <div class="item" id="i3"><img src="images\indiaGate.jpg" alt="Tourism Place" style="width:350px; height:auto;"><br> Place: India Gate<br> Location: Delhi</div>
+        <div class="item" id="i4"><img src="images\qutubMinar.jpg" alt="Tourism Place" style="width:350px; height:auto"><br>Place: Qutub Minar<br>Location: Delhi</div>
+        <div class="item" id="i5"><img src="images\gateWayOfIndia.jpg" alt="Tourism Place" style="width:250px; height:auto"><br>Place: Gate Way of India<br> Location: Mumbai</div>
+        <div class="item" id="i6"><img src="images\Charminar.jpg" alt="Tourism Place" style="width:350px; height:auto"><br>Place: Charminar<br> Location: Hyderabad<br> </div>
+        <div class="item" id="i8">The Charminar is a beautiful monument and mosque in Hyderabad,India. It is a center of attraction in Hyderabad. It is one of the most famous and renowned monuments in India. It was built to celebrate the end of a deadly plague of Mohammad Quli Qutb Shahi.</div>
+        <div class="item" id="i9"><b>These are some of the wonderful places in INDIA. </b>
+        <P><blockquote><h2>DO VISIT!!!!</h2></blockquote></P>    
+        </div>
+
+    </div>
+
+
+</body>
+</html>
